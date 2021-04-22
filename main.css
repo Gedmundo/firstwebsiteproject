@@ -68,8 +68,12 @@ h3 {text-align: center;}
 }
 
 /* Video stying - add later*/
-.vid {
-
+#vid {
+  display: block;
+  background-color: gold;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
 }
 
 * {
