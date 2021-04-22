@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  font-family: 'Press Start 2P', cursive;
+}
+
+* body {
+    background-image: url(/images/fluteelf.png);
+    background-position: center;
+    background-repeat: no-repeat, repeat;
+    background-size: 50%;
+    background-attachment: fixed;
+    background-color: rgb(61, 0, 61);
+    color: white;
+}
+
+a:link {
+    color:gold;
+}
+a:visited {
+    color: rgb(247, 221, 75);
+  }
+
+#ibg {
+    background-image: none;
+}
+
+h1 {
+    text-align: center;
+    color: gold;
+}
+
+h2 {text-align: center;}
+
+h3 {text-align: center;}
+
+
+.topnav {
+    background-color:rgb(0, 0, 0);
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: gold;
+  color: white;
+}
+.con-form {
+    align-items: center;
+}
+
+.req-field {
+    color: gold;
+    display: inline;
+}
+
+/* Video stying - add later*/
+.vid {
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#FQ3A {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+}
+
+.details {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px
+}
+
+.FQ3dates { 
+    flex: 1;
+    margin: 20px;
+}
+
+
+/*form*/
+#con-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color: gold;
+
+}
+
+/*image right*/
+.imgr {
+    float: right;
+}
+/*image left*/
+#imgl {
+    float: left;
+}
+
+.pgcon {
+    display: grid;
+}
+
+.subhead {
+    background-color: gold;
+}
+
+#fq3con {
+    display: grid;
+}
+
+
