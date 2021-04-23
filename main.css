@@ -5,7 +5,7 @@
 }
 
 * body {
-    background-image: url(/images/fluteelf.png);
+    background-image: url(images/fluteelf.png);
     background-position: center;
     background-repeat: no-repeat, repeat;
     background-size: 50%;
