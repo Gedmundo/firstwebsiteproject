@@ -40,7 +40,7 @@ h3 {text-align: center;}
     overflow: hidden;
   }
   
-  .topnav a {
+.topnav a {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -58,26 +58,18 @@ h3 {text-align: center;}
   background-color: gold;
   color: white;
 }
-.con-form {
-    align-items: center;
-}
 
 .req-field {
     color: gold;
     display: inline;
 }
 
-/* Video stying - add later*/
 #vid {
   display: block;
   background-color: gold;
   margin-left: auto;
   margin-right: auto;
   width: 50vw;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 #FQ3A {
@@ -100,23 +92,10 @@ h3 {text-align: center;}
     margin: 20px;
 }
 
-
-/*form*/
-#con-form {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    justify-items: center;
-    align-items: center;
-    background-color: gold;
-
-}
-
-/*image right*/
 .imgr {
     float: right;
 }
-/*image left*/
+
 #imgl {
     float: left;
 }
@@ -131,6 +110,15 @@ h3 {text-align: center;}
 
 #fq3con {
     display: grid;
+}
+
+#con-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+  background-color: gold;
 }
 
 
